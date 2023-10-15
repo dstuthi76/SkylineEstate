@@ -1,6 +1,4 @@
 import mongoose from "mongoose";
-const mongoose = require('mongoose');
-
 const userSchema = new mongoose.Schema({
     username: {
         type: String,
@@ -47,7 +45,7 @@ const userSchema = new mongoose.Schema({
             },
             message: 'Pincode must be a 6-digit number',
         },
-    }, timestamps: true
+    },
 });
 
 const User = mongoose.model('User', userSchema);
