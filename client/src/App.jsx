@@ -14,7 +14,7 @@ export default function  () {
     <Route path="/About" element={<About/>}/>
     <Route path="/SignIn" element={<Signin/>}/>
     <Route path="/Profile" element={<Profile/>}/>
-    <Route path="/SignOut" element={<SignOut/>}/>
+    <Route path="/SignUp" element={<SignOut/>}/>
   </Routes>
   </BrowserRouter>
 }
